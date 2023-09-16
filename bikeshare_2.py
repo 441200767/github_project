@@ -230,13 +230,13 @@ def main():
         user_stats(df,city)
 
         while True :
-            raw_data = input('\nwould you like to see the raw data? Enter yes or no.\n')
+            raw_data = input('\ndo you want  to see the raw data? Enter yes or no.\n')
             if raw_data.lower() == 'yes':   
                 print(df.head())
                 
                 count = 5
                 while True :
-                    more_data = input('\nwould you like to see 5 more rows of the data? Enter yes or no.\n')
+                    more_data = input('\do you want to see 5 more rows of the data? Enter yes or no.\n')
                     if more_data.lower() == 'yes':   
                         print(df.iloc[count : count+5])
                         count+=5
@@ -249,12 +249,12 @@ def main():
             elif raw_data.lower() == 'no':
                 break
             else:
-                print("please enter 'yes ' OR 'no'")
+                print(" enter 'yes ' OR 'no'")
 
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\do you want to restart? Enter yes or no.\n')
         if restart.lower() == 'no':
-            print("Thank you for using my program :)")
+            print("hope you enjoyed my program :)")
             break
         elif restart.lower() == 'yes':
             print("OK \n ")
