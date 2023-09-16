@@ -61,7 +61,7 @@ def get_filters():
 
                     
         
-    print('-'*40)
+    print('#'*40)
     return city, month, day # ('New York', 'All', 'All')==works 
 
 
@@ -132,7 +132,7 @@ def time_stats(df):
     print('Most Popular Start Hour:', popular_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('#'*40)
 
 
 def station_stats(df):
@@ -157,7 +157,7 @@ def station_stats(df):
     print('Most Popular popular combination:', popular_combination)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('#'*40)
 
 
 def trip_duration_stats(df):
@@ -177,7 +177,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('#'*40)
 
 
 def user_stats(df,city):
@@ -216,7 +216,7 @@ def user_stats(df,city):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('#'*40)
 
 
 def main():
