@@ -7,7 +7,9 @@ the project title is bikeshare_2.
 ### Description
 This project employs Python to analyze U.S. bikeshare data, offering an interactive environment that allows users to select and filter data from three cities (Chicago, New York City, and Washington) for their analysis.
 ### Files used
+python files:
 bikeshare_2.py
+data files:
 new_york_city.csv
 chicago.csv
 washington.csv
